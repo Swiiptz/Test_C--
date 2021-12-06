@@ -17,6 +17,6 @@ int main()
 
     cout << "La somme de a et b vaut " << resultat << endl;
     cout << "La société vous remercie de l'utilisation du logiciel " << endl;
-    
+    //rajout commentaire v2
     return 0;
 }
