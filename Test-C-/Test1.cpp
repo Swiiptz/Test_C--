@@ -1,11 +1,18 @@
-#include <iostream> //charge la fonctionnalité bibliothèque
-
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    int const nombreNiveaux(10);
-    string const motDePasse("w6p4Yui2");
-    double const pi(3.14);
-    unsigned int const pointsDeVieMaximum(100);
+    double a(0), b(0); // Déclaration des variables utiles
+
+    cout << "Bienvenue dans le programme d'addition a+b !" << endl;
+
+    cout << "Donnez une valeur pour a : "; // On demande le premier nombre
+    cin >> a;
+
+    cout << "Donnez une valeur pour b : "; // On demande le deuxième nombre
+    cin >> b;
+    //…
+
+    return 0;
 }
