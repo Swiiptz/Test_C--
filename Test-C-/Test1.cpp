@@ -13,6 +13,10 @@ int main()
     cout << "Donnez une valeur pour b : "; // On demande le deuxième nombre
     cin >> b;
     //…
+    double const resultat(a+b);
 
+    cout << "La somme de a et b vaut " << resultat << endl;
+    cout << "La société vous remercie de l'utilisation du logiciel " << endl;
+    
     return 0;
 }
